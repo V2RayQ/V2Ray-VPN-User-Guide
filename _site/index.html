@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>VPN User Guide | How to use V2Ray VPN Client on Mobile, Windows and Mac.</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="VPN User Guide" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="How to use V2Ray VPN Client on Mobile, Windows and Mac." />
+<meta property="og:description" content="How to use V2Ray VPN Client on Mobile, Windows and Mac." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="VPN User Guide" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="VPN User Guide" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"How to use V2Ray VPN Client on Mobile, Windows and Mac.","headline":"VPN User Guide","name":"VPN User Guide","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
+    <script src="/assets/js/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+
+      <header>
+        <h1>VPN User Guide</h1>
+        <p>How to use V2Ray VPN Client on Mobile, Windows and Mac.</p>
+      </header>
+
+      <div id="banner">
+        <!-- <span id="logo"></span>
+
+        <a href="" class="button fork"><strong>View On GitHub</strong></a> -->
+        
+          <div class="downloads">
+            <span></span>
+            <ul>
+              <li><a href="/" class="button">English</a></li>
+              <li><a href="/zh" class="button">简体中文</a></li>
+            </ul>
+          </div>
+        
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <ul>
+  <li><a href="/#v2rayng-for-android">V2RayNG for Android</a>.</li>
+  <li><a href="/#shadowrocket-for-ios">Shadowrocket for iOS</a>.</li>
+  <li><a href="/#v2rayn-for-windows">V2RayN for Windows</a>.</li>
+  <li><a href="/#clashx-for-mac">ClashX for Mac</a>.</li>
+  <li><a href="/#v2ray-for-linux">V2Ray for Linux</a>.</li>
+</ul>
+
+<p>This page is a documentation for how to use <strong>V2Ray</strong> VPN applications for Android, iOS, Desktop and Linux server, such as <strong>V2RayNG</strong> for Android Moibles, <strong>Shadowrocket</strong> for iOS, <strong>V2RayN</strong> for Windows, ClashX for MacBook and etc.</p>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>V2Ray may be the most advanced VPN technology, by cooperating with other tools, V2Ray can demonstrate different website access methods, so as to avoid detection and illustrate proxy access to the network. for example, use websocket and TLS to obfuscate network data to make it impossible to detect or consume a lot of detection resources, making detection more than worth the cost.</p>
+
+<h2 id="v2rayng-for-android">V2RayNG for Android</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Download From Source</th>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="https://play.google.com/store/apps/details?id=com.v2ray.ang">Google Play</a></td>
+      <td style="text-align: left"><a href="https://github.com/2dust/v2rayNG/releases/download/1.7.16/v2rayNG_1.7.16_x86_64.apk">Github</a></td>
+      <td style="text-align: left"><a href="https://apkpure.com/v2rayng/com.v2ray.ang">APKPure</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt>Import config from QRcode.</dt>
+  <dd>1: click + on the top right of V2RayNG</dd>
+  <dd>2: click "Import config from QRcode"</dd>
+  <dd>3: scan a QRcode which you get from a VPN provider.</dd>
+  <dd>4: click the logo on the bottom left of V2RayNG and make the connection to work.</dd>
+</dl>
+
+<dl>
+  <dt>Import config from Clipboard.</dt>
+  <dd>1. copy a VMess link which you get from a vpn provider.</dd>
+  <dd>2. click + on the top left of V2RayNG.</dd>
+  <dd>3. click "Import config from Clipboard".</dd>
+  <dd>4. click the logo on the bottom left of V2RayNG and make the connection to work.</dd>
+</dl>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// an example a V2RayNG format VMess url.</span>
+<span class="nx">vmess</span><span class="p">:</span><span class="c1">//eyJhZGQiOiIxMDBtanAxMDAwMy53ZXJzZC54eXoiLCJhaWQiOiIyMzMiLCJob3N0IjoiMTAwbWpwMTAwMDMud2Vyc2QueHl6IiwiaWQiOiI2MGExN2NiOS0wODVjLTRkYTgtYTAzNS1jZDkyZmI4MzdmMTciLCJuZXQiOiJ3cyIsInBhdGgiOiJyMiIsInBvcnQiOiI0NDMiLCJwcyI6IlYyUkFZUSIsInNjeSI6ImNoYWNoYTIwLXBvbHkxMzA1Iiwic25pIjoiMTAwbWpwMTAwMDMud2Vyc2QueHl6IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=</span>
+</code></pre></div></div>
+
+<p><img src="assets/images/v2rayng-addqr-1.png" alt="Click+" /></p>
+
+<p><img src="assets/images/v2rayng-addqr-2.png" alt="Click+" /></p>
+
+<p><img src="assets/images/v2rayng-addqr-3.png" alt="Click+" /></p>
+
+<p><img src="assets/images/v2rayng-addqr-4.png" alt="Click+" /></p>
+
+<p><img src="assets/images/v2rayng-addqr-5.png" alt="Click+" /></p>
+
+<p><img src="assets/images/v2rayng-addqr-6.png" alt="Click+" /></p>
+
+<p><img src="assets/images/v2rayng-addqr-7.png" alt="Click+" /></p>
+
+<p><img src="assets/images/v2rayng-manual-8.png" alt="Click+" /></p>
+
+<hr />
+
+<h2 id="shadowrocket-for-ios">Shadowrocket for iOS</h2>
+
+<p>Download Shadowrocket from <a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Appstore</a></p>
+
+<dl>
+  <dt>Import config from QRcode.</dt>
+  <dd>1. click scan icon on the top left of Shadowrocket.</dd>
+  <dd>2. allow the Shadowrocket has the camera permission.</dd>
+  <dd>4. scan and import and then allow Shadowrocket has VPN permission.</dd>
+  <dd>5. click the enable button.</dd>
+</dl>
+
+<dl>
+  <dt>Import config from Clipboard.</dt>
+  <dd>1. copy a VMess url which your vpn provider given.</dd>
+  <dd>2. open Shadowrocket application.</dd>
+  <dd>4. add copied config to your list.</dd>
+  <dd>5. click the enable button.</dd>
+</dl>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// an example a Shadowrocket format VMess url.</span>
+<span class="nx">vmess</span><span class="p">:</span><span class="c1">//Y2hhY2hhMjAtcG9seTEzMDU6YjZiMGJmNWQtZWFjMS00NzM1LThiNDYtNmJlYTYwZTEwZmQwQDEwMGdoazEwMDAxLndlcnNkLnh5ejo0NDM=?remarks=R2VPN&amp;obfsParam=%7B%22Host%22:%22100ghk10101.wgwsd.xyz%22%7D&amp;path=/r2&amp;obfs=websocket&amp;tls=1&amp;peer=100ghk10101.wgwsd.xyz&amp;mux=1&amp;alterId=233</span>
+</code></pre></div></div>
+
+<p><img src="assets/images/shadowrocket-1.jpg" alt="Click+" /></p>
+
+<p><img src="assets/images/shadowrocket-2.jpg" alt="Click+" /></p>
+
+<p><img src="assets/images/shadowrocket-3.png" alt="Click+" /></p>
+
+<hr />
+
+<h2 id="v2rayn-for-windows">V2RayN for Windows</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Download From Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="https://github.com/2dust/v2rayN/releases/download/5.29/v2rayN-Core.zip">Github</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li>Download V2RayN from Github and unzip it.</li>
+  <li>Double click “v2rayN.exe”, it will be open.</li>
+  <li>Click “Add VMess Server” or other kinds.</li>
+  <li>Input the server configurations and save.</li>
+</ol>
+
+<p><img src="assets/images/v2rayn-1.jpg" alt="Click+" /></p>
+
+<p><img src="assets/images/v2rayn-2.jpg" alt="Click+" /></p>
+
+<hr />
+
+<h2 id="clashx-for-mac">ClashX for Mac</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Download from Source</th>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left"> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">ClashX</td>
+      <td style="text-align: left"><a href="https://github.com/yichengchen/clashX/releases/download/1.94.0/ClashX.dmg">Github</a></td>
+      <td style="text-align: left">ClashX Pro</td>
+      <td><a href="https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public">App Center</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li>Double click ClashX.dmg and install it, and then open ClashX</li>
+  <li>Click ClashX icon on the tab bar, and navigate to “Config” -&gt; “Open config folder”.</li>
+  <li>Open “config.yaml” in an editor, set port and some proxy configurations.</li>
+  <li>Save and exit.</li>
+  <li>Change proxy mode to “Rule” or “Global”, set proxy to what you just set in config.yaml.</li>
+</ol>
+
+<p><img src="assets/images/clashx-1.jpg" alt="ClashX" /></p>
+
+<p><img src="assets/images/clashx-2.jpg" alt="ClashX" /></p>
+
+<p><img src="assets/images/clashx-3.png" alt="ClashX" /></p>
+
+<p><img src="assets/images/clashx-4.jpg" alt="ClashX" /></p>
+
+<p><img src="assets/images/clashx-5.jpg" alt="ClashX" /></p>
+
+<p><img src="assets/images/clashx-6.png" alt="ClashX" /></p>
+
+<p><img src="assets/images/clashx-7.jpg" alt="ClashX" /></p>
+
+<p><img src="assets/images/clashx-8.jpg" alt="ClashX" /></p>
+
+<hr />
+
+<h2 id="v2ray-for-linux">V2Ray for Linux</h2>
+
+<p>Download V2Ray from <a href="https://github.com/v2fly/v2ray-core/releases">Github</a></p>
+
+<dl>
+<dt>execute below commnands one by one</dt>
+</dl>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="n">sudo</span> <span class="n">mkdir</span> <span class="o">-</span><span class="nb">p</span> <span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="n">v2ray</span><span class="o">/</span>
+  <span class="n">sudo</span> <span class="n">mkdir</span> <span class="o">-</span><span class="nb">p</span> <span class="sr">/etc/</span><span class="n">v2ray</span><span class="o">/</span>
+  <span class="n">sudo</span> <span class="n">mkdir</span> <span class="o">-</span><span class="nb">p</span> <span class="sr">/var/</span><span class="n">log</span><span class="o">/</span><span class="n">v2ray</span><span class="o">/</span>
+  <span class="n">sudo</span> <span class="n">mv</span> <span class="n">v2ray</span> <span class="n">v2ctl</span> <span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="n">v2ray</span><span class="o">/</span>
+  <span class="n">sudo</span> <span class="n">mv</span> <span class="n">config</span><span class="p">.</span><span class="nf">json</span> <span class="sr">/etc/</span><span class="n">v2ray</span><span class="o">/</span>
+  <span class="n">sudo</span> <span class="n">chmod</span> <span class="o">+</span><span class="n">x</span> <span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="n">v2ray</span><span class="o">/*</span>
+  <span class="n">sudo</span> <span class="n">mv</span> <span class="n">v2ray</span><span class="p">.</span><span class="nf">service</span> <span class="s1">'/etc/systemd/system/v2ray.service'</span>
+</code></pre></div></div>
+
+<dl>
+<dt>replace config.json contents to below</dt>
+</dl>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"log"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"loglevel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"warning"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"access"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/var/log/v2ray/access.log"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"error"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/var/log/v2ray/error.log"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"inbounds"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"port"</span><span class="p">:</span><span class="w"> </span><span class="s2">"9001"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"listen"</span><span class="p">:</span><span class="w"> </span><span class="s2">"127.0.0.1"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"protocol"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vmess"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"clients"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                    </span><span class="p">{</span><span class="w">
+                        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"75a4f17c-d013-4d67-8a1d-2860158ea8e4"</span><span class="p">,</span><span class="w">
+                        </span><span class="nl">"alterId"</span><span class="p">:</span><span class="w"> </span><span class="mi">233</span><span class="w">
+                    </span><span class="p">}</span><span class="w"> 
+                </span><span class="p">]</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="nl">"streamSettings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"network"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ws"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"wsSettings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                    </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/r2"</span><span class="w">
+                </span><span class="p">}</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">}</span><span class="w"> 
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"outbounds"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"protocol"</span><span class="p">:</span><span class="w"> </span><span class="s2">"freedom"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">}</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<dl>
+<dt>set your proxy inbound port to 9001, and password to 75a4f17c-d013-4d67-8a1d-2860158ea8e4.</dt>
+</dl>
+
+
+
+      </section>
+      <footer>
+        <!--  -->
+        <p><small>Powered by <a href="https://www.v2rayq.com/">V2RAYQ</a></small></p>
+      </footer>
+    </div>
+  </body>
+</html>
