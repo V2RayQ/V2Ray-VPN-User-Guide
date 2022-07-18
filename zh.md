@@ -2,11 +2,11 @@
 layout: default
 ---
 
-* [V2RayNG for Android](/#v2rayng-for-android). 
-* [Shadowrocket for iOS](/#shadowrocket-for-ios). 
-* [V2RayN for Windows](/#v2rayn-for-windows). 
-* [ClashX for Mac](/#clashx-for-mac). 
-* [V2Ray for Linux](/#v2ray-for-linux).  
+* [V2RayNG for Android](#v2rayng-for-android). 
+* [Shadowrocket for iOS](#shadowrocket-for-ios). 
+* [V2RayN for Windows](#v2rayn-for-windows). 
+* [ClashX for Mac](#clashx-for-mac). 
+* [V2Ray for Linux](#v2ray-for-linux).  
 
 
 # Introduction

@@ -2,11 +2,11 @@
 layout: default
 ---
 
-* [V2RayNG for Android](/#v2rayng-for-android). 
-* [Shadowrocket for iOS](/#shadowrocket-for-ios). 
-* [V2RayN for Windows](/#v2rayn-for-windows). 
-* [ClashX for Mac](/#clashx-for-mac). 
-* [V2Ray for Linux](/#v2ray-for-linux). 
+* [V2RayNG for Android](#v2rayng-for-android). 
+* [Shadowrocket for iOS](#shadowrocket-for-ios). 
+* [V2RayN for Windows](#v2rayn-for-windows). 
+* [ClashX for Mac](#clashx-for-mac). 
+* [V2Ray for Linux](#v2ray-for-linux). 
 
 
 This page is a documentation for how to use **V2Ray** VPN applications for Android, iOS, Desktop and Linux server, such as **V2RayNG** for Android Moibles, **Shadowrocket** for iOS, **V2RayN** for Windows, ClashX for MacBook and etc.
