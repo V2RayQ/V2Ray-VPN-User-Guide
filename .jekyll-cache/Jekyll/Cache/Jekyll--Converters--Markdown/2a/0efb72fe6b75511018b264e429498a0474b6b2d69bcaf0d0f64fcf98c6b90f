@@ -1,94 +1,21 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>V2Ray VPN User Guide | Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS.</title>
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="V2Ray VPN User Guide" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS." />
-<meta property="og:description" content="Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="V2Ray VPN User Guide" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="V2Ray VPN User Guide" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS.","headline":"V2Ray VPN User Guide","name":"V2Ray VPN User Guide","url":"http://localhost:4000/"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="/assets/css/style.css?v=">
-    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
-  </head>
-  <body>
-
-      <header>
-        <h1>V2Ray VPN User Guide</h1>
-        <p>Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS.</p>
-      </header>
-
-      <div id="banner">
-        <!-- <span id="logo"></span>
-
-        <a href="" class="button fork"><strong>View On GitHub</strong></a> -->
-        
-          <div class="downloads">
-            <span></span>
-            <ul>
-              <li><a href="https://v2rayq.github.io/V2Ray-VPN-User-Guide/" class="button">English</a></li>
-              <li><a href="zh" class="button">简体中文</a></li>
-            </ul>
-          </div>
-        
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <ul>
+I"1<ul>
   <li><a href="#v2rayng-for-android">V2RayNG for Android</a>.</li>
   <li><a href="#shadowrocket-for-ios">Shadowrocket for iOS</a>.</li>
-  <li><a href="#quantumultx-for-ios">QuantumultX for iOS</a>.</li>
   <li><a href="#v2rayn-for-windows">V2RayN for Windows</a>.</li>
   <li><a href="#clashx-for-mac">ClashX for Mac</a>.</li>
   <li><a href="#v2ray-for-linux">V2Ray for Linux</a>.</li>
 </ul>
 
-<p>This page is a documentation for how to use <strong>V2Ray</strong> VPN applications for Android, iOS, Desktop and Linux server, such as <strong>V2RayNG</strong> for Android Moibles, <strong>Shadowrocket</strong> for iOS, <strong>V2RayN</strong> for Windows, ClashX for MacBook and etc.</p>
-
 <h1 id="introduction">Introduction</h1>
 
-<p>V2Ray may be the most advanced VPN technology, by cooperating with other tools, V2Ray can demonstrate different website access methods, so as to avoid detection and illustrate proxy access to the network. for example, use websocket and TLS to obfuscate network data to make it impossible to detect or consume a lot of detection resources, making detection more than worth the cost.</p>
+<p>V2Ray 可能是当前最先进的VPN技术，通过与其他工具的配合，V2Ray可以实现不同的网站访问方式，从而避免被监控并实现代理访问网络。 例如，使用Websocket和TLS的组合方式访问网络并对数据混淆处理，使监控无法检测或消耗大量监控资源，让得不偿失。</p>
 
 <h2 id="v2rayng-for-android">V2RayNG for Android</h2>
 
 <table>
   <thead>
     <tr>
-      <th style="text-align: left">Download From Source</th>
+      <th style="text-align: left">从源站下载</th>
       <th style="text-align: left"> </th>
       <th style="text-align: left"> </th>
     </tr>
@@ -103,28 +30,28 @@
 </table>
 
 <dl>
-  <dt>Import config from QRcode.</dt>
-  <dd>1: click + on the top right of V2RayNG</dd>
-  <dd>2: click "Import config from QRcode"</dd>
-  <dd>3: scan a QRcode which you get from a VPN provider.</dd>
-  <dd>4: click the logo on the bottom left of V2RayNG and make the connection to work.</dd>
+  <dt>扫描二维码.</dt>
+  <dd>1: 点击右上角 + </dd>
+  <dd>2: 点击 扫描二维码</dd>
+  <dd>3: 开始扫描二维码.</dd>
+  <dd>4: 点击底部右下角LOGO使VPN启用.</dd>
 </dl>
 
 <dl>
-  <dt>Import config from Clipboard.</dt>
-  <dd>1. copy a VMess link which you get from a vpn provider.</dd>
-  <dd>2. click + on the top left of V2RayNG.</dd>
-  <dd>3. click "Import config from Clipboard".</dd>
-  <dd>4. click the logo on the bottom left of V2RayNG and make the connection to work.</dd>
+  <dt>从剪贴板导入.</dt>
+  <dd>1. 复制VMess链接到剪贴板.</dd>
+  <dd>2. 点击右上角 +.</dd>
+  <dd>3. 点击 从剪贴板导入.</dd>
+  <dd>4. 点击底部右下角LOGO使VPN启用.</dd>
 </dl>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// an example a V2RayNG format VMess url.</span>
 <span class="nx">vmess</span><span class="p">:</span><span class="c1">//eyJhZGQiOiIxMDBtanAxMDAwMy53ZXJzZC54eXoiLCJhaWQiOiIyMzMiLCJob3N0IjoiMTAwbWpwMTAwMDMud2Vyc2QueHl6IiwiaWQiOiI2MGExN2NiOS0wODVjLTRkYTgtYTAzNS1jZDkyZmI4MzdmMTciLCJuZXQiOiJ3cyIsInBhdGgiOiJyMiIsInBvcnQiOiI0NDMiLCJwcyI6IlYyUkFZUSIsInNjeSI6ImNoYWNoYTIwLXBvbHkxMzA1Iiwic25pIjoiMTAwbWpwMTAwMDMud2Vyc2QueHl6IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=</span>
 </code></pre></div></div>
 
-<p><img src="assets/images/v2rayng-addqr-1.png" alt="Click+" /></p>
+<p><img src="assets/images/v2rayng-cn-1.jpg" alt="Click+" /></p>
 
-<p><img src="assets/images/v2rayng-addqr-2.png" alt="Click+" /></p>
+<p><img src="assets/images/v2rayng-cn-2.jpg" alt="Click+" /></p>
 
 <p><img src="assets/images/v2rayng-addqr-3.png" alt="Click+" /></p>
 
@@ -136,68 +63,39 @@
 
 <p><img src="assets/images/v2rayng-addqr-7.png" alt="Click+" /></p>
 
-<p><img src="assets/images/v2rayng-manual-8.png" alt="Click+" /></p>
+<p><img src="assets/images/v2rayng-cn-4.jpg" alt="Click+" /></p>
 
 <hr />
 
 <h2 id="shadowrocket-for-ios">Shadowrocket for iOS</h2>
 
-<p>Download Shadowrocket from <a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Appstore</a></p>
+<p>下载 <a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Appstore</a></p>
 
 <dl>
-  <dt>Import config from QRcode.</dt>
-  <dd>1. click scan icon on the top left of Shadowrocket.</dd>
-  <dd>2. allow the Shadowrocket has the camera permission.</dd>
-  <dd>4. scan and import and then allow Shadowrocket has VPN permission.</dd>
-  <dd>5. click the enable button.</dd>
+  <dt>扫描二维码.</dt>
+  <dd>1. 点击左上角扫描图标.</dd>
+  <dd>2. 允许shadowrocket相机使用权限.</dd>
+  <dd>4. 允许shadowrocket VPN 权限.</dd>
+  <dd>5. 点击开启VPN.</dd>
 </dl>
 
 <dl>
-  <dt>Import config from Clipboard.</dt>
-  <dd>1. copy a VMess url which your vpn provider given.</dd>
-  <dd>2. open Shadowrocket application.</dd>
-  <dd>4. add copied config to your list.</dd>
-  <dd>5. click the enable button.</dd>
+  <dt>从剪贴板导入.</dt>
+  <dd>1. 复制VMess链接到剪贴板.</dd>
+  <dd>2. 打开shadowrocket.</dd>
+  <dd>4. 添加VMess到列表.</dd>
+  <dd>5. 点击开启VPN.</dd>
 </dl>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// an example a Shadowrocket format VMess url.</span>
 <span class="nx">vmess</span><span class="p">:</span><span class="c1">//Y2hhY2hhMjAtcG9seTEzMDU6YjZiMGJmNWQtZWFjMS00NzM1LThiNDYtNmJlYTYwZTEwZmQwQDEwMGdoazEwMDAxLndlcnNkLnh5ejo0NDM=?remarks=R2VPN&amp;obfsParam=%7B%22Host%22:%22100ghk10101.wgwsd.xyz%22%7D&amp;path=/r2&amp;obfs=websocket&amp;tls=1&amp;peer=100ghk10101.wgwsd.xyz&amp;mux=1&amp;alterId=233</span>
 </code></pre></div></div>
 
-<p><img src="assets/images/shadowrocket-1.jpg" alt="Click+" /></p>
+<p><img src="assets/images/shadowrocket-cn-1.jpg" alt="Click+" /></p>
 
 <p><img src="assets/images/shadowrocket-2.jpg" alt="Click+" /></p>
 
-<p><img src="assets/images/shadowrocket-3.png" alt="Click+" /></p>
-
-<hr />
-
-<h2 id="quantumultx-for-ios">QuantumultX for iOS</h2>
-
-<p>Download Quantumult X from <a href="https://apps.apple.com/app/quantumult-x/id1443988620">Appstore</a></p>
-
-<dl>
-  <dt>Copy Quantumult X Vmess to configuration file.</dt>
-  <dd>1. click setting on bottom right.</dd>
-  <dd>2. click the link icon on the top right of Setting screen.</dd>
-  <dd>4. click the direction icon on the top right of configuration file screen.</dd>
-  <dd>5. click the [server_local] and then scrol down to line 182 and paste the VMess URI.</dd>
-  <dd>5. click the Right icon and save back to Home screen and then enable the VPN.</dd>
-</dl>
-
-<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// an example a QuantumultX format VMess url.</span>
-<span class="n">vmess</span><span class="o">=</span><span class="mi">100</span><span class="n">ghk10001</span><span class="mf">.</span><span class="n">wewd</span><span class="mf">.</span><span class="n">xyz</span><span class="o">:</span><span class="mi">443</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="n">chacha20</span><span class="o">-</span><span class="n">poly1305</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="n">ab0afc33</span><span class="o">-</span><span class="mi">4</span><span class="n">df5</span><span class="o">-</span><span class="mi">44</span><span class="n">a8</span><span class="o">-</span><span class="n">ac27</span><span class="o">-</span><span class="n">e96c888514a8</span><span class="p">,</span> <span class="n">obfs</span><span class="o">=</span><span class="n">wss</span><span class="p">,</span> <span class="n">obfs</span><span class="o">-</span><span class="n">host</span><span class="o">=</span><span class="mi">100</span><span class="n">ghk10001</span><span class="mf">.</span><span class="n">werwe</span><span class="mf">.</span><span class="n">xyz</span><span class="p">,</span> <span class="n">obfs</span><span class="o">-</span><span class="n">uri</span><span class="o">=/</span><span class="n">r2</span><span class="p">,</span> <span class="n">tls13</span><span class="o">=</span><span class="kc">true</span><span class="p">,</span> <span class="n">fast</span><span class="o">-</span><span class="n">open</span><span class="o">=</span><span class="kc">false</span><span class="p">,</span> <span class="n">udp</span><span class="o">-</span><span class="n">relay</span><span class="o">=</span><span class="kc">false</span><span class="p">,</span> <span class="n">tag</span><span class="o">=</span><span class="no">R2VPN</span>
-</code></pre></div></div>
-
-<p><img src="assets/images/quantumultx-en-1.jpg" alt="Click+" /></p>
-
-<p><img src="assets/images/quantumultx-en-2.jpg" alt="Click+" /></p>
-
-<p><img src="assets/images/quantumultx-en-3.jpg" alt="Click+" /></p>
-
-<p><img src="assets/images/quantumultx-en-4.jpg" alt="Click+" /></p>
-
-<p><img src="assets/images/quantumultx-en-5.jpg" alt="Click+" /></p>
+<p><img src="assets/images/shadowrocket-cn-2.jpg" alt="Click+" /></p>
 
 <hr />
 
@@ -206,7 +104,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align: left">Download From Source</th>
+      <th style="text-align: left">从源站下载</th>
     </tr>
   </thead>
   <tbody>
@@ -217,15 +115,15 @@
 </table>
 
 <ol>
-  <li>Download V2RayN from Github and unzip it.</li>
-  <li>Double click “v2rayN.exe”, it will be open.</li>
-  <li>Click “Add VMess Server” or other kinds.</li>
-  <li>Input the server configurations and save.</li>
+  <li>下载V2RayN并解压.</li>
+  <li>双击”v2rayN.exe”打开.</li>
+  <li>点击添加VMess或其他方式.</li>
+  <li>输入服务器信息保存.</li>
 </ol>
 
-<p><img src="assets/images/v2rayn-1.jpg" alt="Click+" /></p>
+<p><img src="assets/images/v2rayn-cn-1.jpg" alt="Click+" /></p>
 
-<p><img src="assets/images/v2rayn-2.jpg" alt="Click+" /></p>
+<p><img src="assets/images/v2rayn-cn-2.jpg" alt="Click+" /></p>
 
 <hr />
 
@@ -234,7 +132,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align: left">Download from Source</th>
+      <th style="text-align: left">从源站下载</th>
       <th style="text-align: left"> </th>
       <th style="text-align: left"> </th>
       <th> </th>
@@ -251,11 +149,11 @@
 </table>
 
 <ol>
-  <li>Double click ClashX.dmg and install it, and then open ClashX</li>
-  <li>Click ClashX icon on the tab bar, and navigate to “Config” -&gt; “Open config folder”.</li>
-  <li>Open “config.yaml” in an editor, set port and some proxy configurations.</li>
-  <li>Save and exit.</li>
-  <li>Change proxy mode to “Rule” or “Global”, set proxy to what you just set in config.yaml.</li>
+  <li>双击 ClashX.dmg 安装，并打开 ClashX</li>
+  <li>在顶部点击 Clashx, 依次至 “设置” -&gt; “打开设置文件目录”.</li>
+  <li>在编辑器打开 “config.yaml” 填写端口等信息.</li>
+  <li>保存退出.</li>
+  <li>变更代理至 “条件” or “全局”, 设置代理为刚才在 config.yaml的方式.</li>
 </ol>
 
 <p><img src="assets/images/clashx-1.jpg" alt="ClashX" /></p>
@@ -278,10 +176,10 @@
 
 <h2 id="v2ray-for-linux">V2Ray for Linux</h2>
 
-<p>Download V2Ray from <a href="https://github.com/v2fly/v2ray-core/releases">Github</a></p>
+<p>从源站下载 <a href="https://github.com/v2fly/v2ray-core/releases">Github</a></p>
 
 <dl>
-<dt>execute below commnands one by one</dt>
+<dt>一行一行执行以下命令</dt>
 </dl>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="n">sudo</span> <span class="n">mkdir</span> <span class="o">-</span><span class="nb">p</span> <span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="n">v2ray</span><span class="o">/</span>
@@ -294,7 +192,7 @@
 </code></pre></div></div>
 
 <dl>
-<dt>replace config.json contents to below</dt>
+<dt>替换config.json至以下内容</dt>
 </dl>
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
@@ -334,16 +232,7 @@
 </span></code></pre></div></div>
 
 <dl>
-<dt>set your proxy inbound port to 9001, and password to 75a4f17c-d013-4d67-8a1d-2860158ea8e4.</dt>
+<dt>使用时候设置端口 9001, 密码为75a4f17c-d013-4d67-8a1d-2860158ea8e4.</dt>
 </dl>
 
-
-
-      </section>
-      <footer>
-        <!--  -->
-        <p><small>Powered by <a href="https://www.r2vpn.com/">R2VPN</a></small></p>
-      </footer>
-    </div>
-  </body>
-</html>
+:ET

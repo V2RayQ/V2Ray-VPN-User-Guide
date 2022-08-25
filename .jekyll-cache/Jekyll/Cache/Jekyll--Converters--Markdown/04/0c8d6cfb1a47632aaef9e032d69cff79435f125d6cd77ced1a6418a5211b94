@@ -1,74 +1,4 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>V2Ray VPN User Guide | Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS.</title>
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="V2Ray VPN User Guide" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS." />
-<meta property="og:description" content="Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="V2Ray VPN User Guide" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="V2Ray VPN User Guide" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS.","headline":"V2Ray VPN User Guide","name":"V2Ray VPN User Guide","url":"http://localhost:4000/"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="/assets/css/style.css?v=">
-    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
-  </head>
-  <body>
-
-      <header>
-        <h1>V2Ray VPN User Guide</h1>
-        <p>Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS.</p>
-      </header>
-
-      <div id="banner">
-        <!-- <span id="logo"></span>
-
-        <a href="" class="button fork"><strong>View On GitHub</strong></a> -->
-        
-          <div class="downloads">
-            <span></span>
-            <ul>
-              <li><a href="https://v2rayq.github.io/V2Ray-VPN-User-Guide/" class="button">English</a></li>
-              <li><a href="zh" class="button">简体中文</a></li>
-            </ul>
-          </div>
-        
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <ul>
+I"�?<ul>
   <li><a href="#v2rayng-for-android">V2RayNG for Android</a>.</li>
   <li><a href="#shadowrocket-for-ios">Shadowrocket for iOS</a>.</li>
   <li><a href="#quantumultx-for-ios">QuantumultX for iOS</a>.</li>
@@ -174,7 +104,7 @@
 
 <h2 id="quantumultx-for-ios">QuantumultX for iOS</h2>
 
-<p>Download Quantumult X from <a href="https://apps.apple.com/app/quantumult-x/id1443988620">Appstore</a></p>
+<p>Download Quantumult X from <a href="https://apps.apple.com/us/app/quantumult-x/id1443988620">Appstore</a></p>
 
 <dl>
   <dt>Copy Quantumult X Vmess to configuration file.</dt>
@@ -185,19 +115,15 @@
   <dd>5. click the Right icon and save back to Home screen and then enable the VPN.</dd>
 </dl>
 
-<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// an example a QuantumultX format VMess url.</span>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// an example a Shadowrocket format VMess url.</span>
 <span class="n">vmess</span><span class="o">=</span><span class="mi">100</span><span class="n">ghk10001</span><span class="mf">.</span><span class="n">wewd</span><span class="mf">.</span><span class="n">xyz</span><span class="o">:</span><span class="mi">443</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="n">chacha20</span><span class="o">-</span><span class="n">poly1305</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="n">ab0afc33</span><span class="o">-</span><span class="mi">4</span><span class="n">df5</span><span class="o">-</span><span class="mi">44</span><span class="n">a8</span><span class="o">-</span><span class="n">ac27</span><span class="o">-</span><span class="n">e96c888514a8</span><span class="p">,</span> <span class="n">obfs</span><span class="o">=</span><span class="n">wss</span><span class="p">,</span> <span class="n">obfs</span><span class="o">-</span><span class="n">host</span><span class="o">=</span><span class="mi">100</span><span class="n">ghk10001</span><span class="mf">.</span><span class="n">werwe</span><span class="mf">.</span><span class="n">xyz</span><span class="p">,</span> <span class="n">obfs</span><span class="o">-</span><span class="n">uri</span><span class="o">=/</span><span class="n">r2</span><span class="p">,</span> <span class="n">tls13</span><span class="o">=</span><span class="kc">true</span><span class="p">,</span> <span class="n">fast</span><span class="o">-</span><span class="n">open</span><span class="o">=</span><span class="kc">false</span><span class="p">,</span> <span class="n">udp</span><span class="o">-</span><span class="n">relay</span><span class="o">=</span><span class="kc">false</span><span class="p">,</span> <span class="n">tag</span><span class="o">=</span><span class="no">R2VPN</span>
 </code></pre></div></div>
 
-<p><img src="assets/images/quantumultx-en-1.jpg" alt="Click+" /></p>
+<p><img src="assets/images/shadowrocket-1.jpg" alt="Click+" /></p>
 
-<p><img src="assets/images/quantumultx-en-2.jpg" alt="Click+" /></p>
+<p><img src="assets/images/shadowrocket-2.jpg" alt="Click+" /></p>
 
-<p><img src="assets/images/quantumultx-en-3.jpg" alt="Click+" /></p>
-
-<p><img src="assets/images/quantumultx-en-4.jpg" alt="Click+" /></p>
-
-<p><img src="assets/images/quantumultx-en-5.jpg" alt="Click+" /></p>
+<p><img src="assets/images/shadowrocket-3.png" alt="Click+" /></p>
 
 <hr />
 
@@ -337,13 +263,4 @@
 <dt>set your proxy inbound port to 9001, and password to 75a4f17c-d013-4d67-8a1d-2860158ea8e4.</dt>
 </dl>
 
-
-
-      </section>
-      <footer>
-        <!--  -->
-        <p><small>Powered by <a href="https://www.r2vpn.com/">R2VPN</a></small></p>
-      </footer>
-    </div>
-  </body>
-</html>
+:ET

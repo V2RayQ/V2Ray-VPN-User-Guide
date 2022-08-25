@@ -4,6 +4,7 @@ layout: default
 
 * [V2RayNG for Android](#v2rayng-for-android). 
 * [Shadowrocket for iOS](#shadowrocket-for-ios). 
+* [QuantumultX for iOS](#quantumultx-for-ios). 
 * [V2RayN for Windows](#v2rayn-for-windows). 
 * [ClashX for Mac](#clashx-for-mac). 
 * [V2Ray for Linux](#v2ray-for-linux).  
@@ -93,6 +94,40 @@ vmess://Y2hhY2hhMjAtcG9seTEzMDU6YjZiMGJmNWQtZWFjMS00NzM1LThiNDYtNmJlYTYwZTEwZmQw
  ![Click+](assets/images/shadowrocket-cn-2.jpg)
 
  ***
+
+
+## QuantumultX for iOS
+
+下载 Quantumult X 从 [Appstore](https://apps.apple.com/app/quantumult-x/id1443988620)
+
+<dl>
+  <dt>复制VMess链接到QuantumultX设置文件.</dt>
+  <dd>1. 点击首页左下角QuantumultX的风车图标.</dd>
+  <dd>2. 点击设置页面右上角链接图标.</dd>
+  <dd>4. 点击设置文件右上角第二个图标.</dd>
+  <dd>5. 点击 [server_local] 滑到 182 行， 把QuantumultX VMess URI 复制到此.</dd>
+  <dd>5. 点击右上角保存回到首页点击启用此设置.</dd>
+</dl> 
+
+
+```php
+// an example a QuantumultX format VMess url.
+vmess=100ghk10001.wewd.xyz:443, method=chacha20-poly1305, password=ab0afc33-4df5-44a8-ac27-e96c888514a8, obfs=wss, obfs-host=100ghk10001.werwe.xyz, obfs-uri=/r2, tls13=true, fast-open=false, udp-relay=false, tag=R2VPN
+```
+ 
+ ![Click+](assets/images/quantumultx-en-1.jpg)
+
+ ![Click+](assets/images/quantumultx-cn-2.jpg)
+
+ ![Click+](assets/images/quantumultx-en-3.jpg)
+
+ ![Click+](assets/images/quantumultx-en-4.jpg)
+
+ ![Click+](assets/images/quantumultx-cn-5.jpg)
+
+ ***
+
+
 
 ## V2RayN for Windows
 

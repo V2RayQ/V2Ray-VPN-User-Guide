@@ -4,6 +4,7 @@ layout: default
 
 * [V2RayNG for Android](#v2rayng-for-android). 
 * [Shadowrocket for iOS](#shadowrocket-for-ios). 
+* [QuantumultX for iOS](#quantumultx-for-ios). 
 * [V2RayN for Windows](#v2rayn-for-windows). 
 * [ClashX for Mac](#clashx-for-mac). 
 * [V2Ray for Linux](#v2ray-for-linux). 
@@ -97,6 +98,40 @@ vmess://Y2hhY2hhMjAtcG9seTEzMDU6YjZiMGJmNWQtZWFjMS00NzM1LThiNDYtNmJlYTYwZTEwZmQw
  ![Click+](assets/images/shadowrocket-3.png)
 
  ***
+
+
+
+## QuantumultX for iOS
+
+Download Quantumult X from [Appstore](https://apps.apple.com/app/quantumult-x/id1443988620)
+
+<dl>
+  <dt>Copy Quantumult X Vmess to configuration file.</dt>
+  <dd>1. click setting on bottom right.</dd>
+  <dd>2. click the link icon on the top right of Setting screen.</dd>
+  <dd>4. click the direction icon on the top right of configuration file screen.</dd>
+  <dd>5. click the [server_local] and then scrol down to line 182 and paste the VMess URI.</dd>
+  <dd>5. click the Right icon and save back to Home screen and then enable the VPN.</dd>
+</dl> 
+
+
+```php
+// an example a QuantumultX format VMess url.
+vmess=100ghk10001.wewd.xyz:443, method=chacha20-poly1305, password=ab0afc33-4df5-44a8-ac27-e96c888514a8, obfs=wss, obfs-host=100ghk10001.werwe.xyz, obfs-uri=/r2, tls13=true, fast-open=false, udp-relay=false, tag=R2VPN
+```
+ 
+ ![Click+](assets/images/quantumultx-en-1.jpg)
+
+ ![Click+](assets/images/quantumultx-en-2.jpg)
+
+ ![Click+](assets/images/quantumultx-en-3.jpg)
+
+ ![Click+](assets/images/quantumultx-en-4.jpg)
+
+ ![Click+](assets/images/quantumultx-en-5.jpg)
+
+ ***
+
 
 ## V2RayN for Windows
 

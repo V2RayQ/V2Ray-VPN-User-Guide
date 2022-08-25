@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>VPN User Guide | How to use V2Ray VPN Client on Mobile, Windows and Mac.</title>
+<title>V2Ray VPN User Guide | Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS.</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="VPN User Guide" />
+<meta property="og:title" content="V2Ray VPN User Guide" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="How to use V2Ray VPN Client on Mobile, Windows and Mac." />
-<meta property="og:description" content="How to use V2Ray VPN Client on Mobile, Windows and Mac." />
+<meta name="description" content="Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS." />
+<meta property="og:description" content="Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS." />
 <link rel="canonical" href="http://localhost:4000/zh.html" />
 <meta property="og:url" content="http://localhost:4000/zh.html" />
-<meta property="og:site_name" content="VPN User Guide" />
+<meta property="og:site_name" content="V2Ray VPN User Guide" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="VPN User Guide" />
+<meta property="twitter:title" content="V2Ray VPN User Guide" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"How to use V2Ray VPN Client on Mobile, Windows and Mac.","headline":"VPN User Guide","url":"http://localhost:4000/zh.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS.","headline":"V2Ray VPN User Guide","url":"http://localhost:4000/zh.html"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/assets/css/style.css?v=">
@@ -44,8 +44,8 @@
   <body>
 
       <header>
-        <h1>VPN User Guide</h1>
-        <p>How to use V2Ray VPN Client on Mobile, Windows and Mac.</p>
+        <h1>V2Ray VPN User Guide</h1>
+        <p>Guide to use V2Ray VPN Client on Mobile, Windows, Linux and Mac, such as V2RayNG for Android, Shadowrocket for iOS.</p>
       </header>
 
       <div id="banner">
@@ -71,6 +71,7 @@
         <ul>
   <li><a href="#v2rayng-for-android">V2RayNG for Android</a>.</li>
   <li><a href="#shadowrocket-for-ios">Shadowrocket for iOS</a>.</li>
+  <li><a href="#quantumultx-for-ios">QuantumultX for iOS</a>.</li>
   <li><a href="#v2rayn-for-windows">V2RayN for Windows</a>.</li>
   <li><a href="#clashx-for-mac">ClashX for Mac</a>.</li>
   <li><a href="#v2ray-for-linux">V2Ray for Linux</a>.</li>
@@ -166,6 +167,35 @@
 <p><img src="assets/images/shadowrocket-2.jpg" alt="Click+" /></p>
 
 <p><img src="assets/images/shadowrocket-cn-2.jpg" alt="Click+" /></p>
+
+<hr />
+
+<h2 id="quantumultx-for-ios">QuantumultX for iOS</h2>
+
+<p>下载 Quantumult X 从 <a href="https://apps.apple.com/app/quantumult-x/id1443988620">Appstore</a></p>
+
+<dl>
+  <dt>复制VMess链接到QuantumultX设置文件.</dt>
+  <dd>1. 点击首页左下角QuantumultX的风车图标.</dd>
+  <dd>2. 点击设置页面右上角链接图标.</dd>
+  <dd>4. 点击设置文件右上角第二个图标.</dd>
+  <dd>5. 点击 [server_local] 滑到 182 行， 把QuantumultX VMess URI 复制到此.</dd>
+  <dd>5. 点击右上角保存回到首页点击启用此设置.</dd>
+</dl>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// an example a QuantumultX format VMess url.</span>
+<span class="n">vmess</span><span class="o">=</span><span class="mi">100</span><span class="n">ghk10001</span><span class="mf">.</span><span class="n">wewd</span><span class="mf">.</span><span class="n">xyz</span><span class="o">:</span><span class="mi">443</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="n">chacha20</span><span class="o">-</span><span class="n">poly1305</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="n">ab0afc33</span><span class="o">-</span><span class="mi">4</span><span class="n">df5</span><span class="o">-</span><span class="mi">44</span><span class="n">a8</span><span class="o">-</span><span class="n">ac27</span><span class="o">-</span><span class="n">e96c888514a8</span><span class="p">,</span> <span class="n">obfs</span><span class="o">=</span><span class="n">wss</span><span class="p">,</span> <span class="n">obfs</span><span class="o">-</span><span class="n">host</span><span class="o">=</span><span class="mi">100</span><span class="n">ghk10001</span><span class="mf">.</span><span class="n">werwe</span><span class="mf">.</span><span class="n">xyz</span><span class="p">,</span> <span class="n">obfs</span><span class="o">-</span><span class="n">uri</span><span class="o">=/</span><span class="n">r2</span><span class="p">,</span> <span class="n">tls13</span><span class="o">=</span><span class="kc">true</span><span class="p">,</span> <span class="n">fast</span><span class="o">-</span><span class="n">open</span><span class="o">=</span><span class="kc">false</span><span class="p">,</span> <span class="n">udp</span><span class="o">-</span><span class="n">relay</span><span class="o">=</span><span class="kc">false</span><span class="p">,</span> <span class="n">tag</span><span class="o">=</span><span class="no">R2VPN</span>
+</code></pre></div></div>
+
+<p><img src="assets/images/quantumultx-en-1.jpg" alt="Click+" /></p>
+
+<p><img src="assets/images/quantumultx-cn-2.jpg" alt="Click+" /></p>
+
+<p><img src="assets/images/quantumultx-en-3.jpg" alt="Click+" /></p>
+
+<p><img src="assets/images/quantumultx-en-4.jpg" alt="Click+" /></p>
+
+<p><img src="assets/images/quantumultx-cn-5.jpg" alt="Click+" /></p>
 
 <hr />
 
@@ -310,7 +340,7 @@
       </section>
       <footer>
         <!--  -->
-        <p><small>Powered by <a href="https://www.v2rayq.com/">V2RAYQ</a></small></p>
+        <p><small>Powered by <a href="https://www.r2vpn.com/">R2VPN</a></small></p>
       </footer>
     </div>
   </body>
